@@ -62,7 +62,7 @@ function parseInputs(): ActionInputs {
     skipGitHubPullRequest: getOptionalBooleanInput('skip-github-pull-request'),
     fork: getOptionalBooleanInput('fork'),
     includeComponentInTag: getOptionalBooleanInput('include-component-in-tag'),
-    changelogHost: core.getInput('changelog-host') || DEFAULT_GITHUB_SERVER_URL
+    changelogHost: core.getInput('changelog-host') || DEFAULT_GITHUB_SERVER_URL,
   };
   return inputs;
 }
