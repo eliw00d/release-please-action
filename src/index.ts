@@ -41,7 +41,7 @@ interface ActionInputs {
   skipGitHubPullRequest?: boolean;
   fork?: boolean;
   includeComponentInTag?: boolean;
-  changelogHost: string
+  changelogHost: string;
 }
 
 function parseInputs(): ActionInputs {
