@@ -89,9 +89,9 @@ function loadOrBuildManifest(
       github,
       github.repository.defaultBranch,
       {
-        changelogHost: inputs.changelogHost,
         releaseType: inputs.releaseType,
         includeComponentInTag: inputs.includeComponentInTag,
+        changelogHost: inputs.changelogHost,
       },
       {
         fork: inputs.fork,
